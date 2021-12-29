@@ -70,9 +70,9 @@ h2 {
 .main-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     max-width: 1440px;
-    margin: auto;
+    margin-left: 30px;
 }
 .github-link a {
     font-size: 25px;
@@ -98,12 +98,12 @@ h2 {
     background: cornflowerblue;
     max-width: 1440px;
 }
-.main {
-    margin-left: 30px;
-}
 #profile {
     width: fit-content;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+#lang {
+    margin-left: 30px;
 }
